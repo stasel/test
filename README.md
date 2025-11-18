@@ -1,2 +1,8 @@
-# test
-hello1
+# Readme
+## How to start
+1. Turn on engines
+2. Click on the **red** button
+3. Hold tight
+
+## Support
+To get support, go to [this URL](http://support.example.org)
