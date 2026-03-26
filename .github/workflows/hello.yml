@@ -1,0 +1,15 @@
+name: Hello World
+
+# Here we specify the events that trigger the workflow.
+## In this case, there are two triggers: 'push' and 'workflow_dispatch'
+on:
+  push:
+    branches: [main] # Trigger the workflow on push to the main branch
+  workflow_dispatch: # Allow manual triggering of the workflow from the GitHub Actions tab
+
+jobs:
+  hello:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Say hello
+        run: echo "Hello World!"
