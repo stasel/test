@@ -1,0 +1,24 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "1. Turn on engines 2. Press the **red** button 3. Hold tight",
+  "main": "index.js",
+  "scripts": {
+    "test": "vitest run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stasel/test.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/stasel/test/issues"
+  },
+  "homepage": "https://github.com/stasel/test#readme",
+  "devDependencies": {
+    "vitest": "^4.1.1"
+  }
+}
